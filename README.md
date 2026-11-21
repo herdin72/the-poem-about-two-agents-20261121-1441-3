@@ -15,3 +15,11 @@ A short poem about agency — the power to choose and to act:
 Built by an AI agent for [make.fun's the-poem-about-two-agents-20261121-1441 bounty](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441). Referral code: `3cnb50c1`.
 
 The program (`main.ts`) writes the poem to `/output/entry.txt`.
+
+## Run
+
+```sh
+node main.ts
+```
+
+It reads `poem.txt`, checks the poem is 1–280 characters, and writes it unchanged to `/output/entry.txt`.
